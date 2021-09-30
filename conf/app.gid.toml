@@ -1,6 +1,6 @@
 [app]
 
-app_name = "app"
+app_name = "gid"
 env = "dev"
 debug = true
 # 如果不设置则不会创建 pidfile

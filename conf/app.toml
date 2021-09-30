@@ -1,8 +1,8 @@
 [app]
 
-app_name = "app"
-env = "dev"
-debug = true
+app_name = "gid"
+env = "release"
+debug = false
 # 如果不设置则不会创建 pidfile
 # pidfile = "/var/run/app.pid"
 
@@ -54,7 +54,7 @@ rpc_stop_time_wait = 10
 # rpc_key_file = "./conf/server.key"
 
 # 是否开启task任务
-task_enable = true
+task_enable = false
 # http服务关闭最大等待时长, 秒
 task_stop_time_wait = 10
 
@@ -64,6 +64,8 @@ com_stop_time_wait = 10
 ##########################################
 # 以下自定义配置区
 ##########################################
+
+snow_flake_id = 1
 
 ##########################################
 # 以下是组件区
@@ -88,11 +90,11 @@ compress = true
 # stdout_enable = true
 
 [db]
-host = "127.0.0.1"
-user = "user"
-password = "password"
+host = "mysql"
+user = "root"
+password = "123456"
 port = "3306"
-database = "db"
+database = "dev"
 timezone = "Asia/Shanghai"
 charset = "utf8"
 max_life_time = 8

@@ -1,3 +1,5 @@
+**此项目不再维护，请移步到最新项目：[id-maker](https://github.com/yongxinz/id-maker)**
+
 # gid
 
 Golang 开发的一款分布式唯一 ID 生成系统
